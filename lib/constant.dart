@@ -1,0 +1,17 @@
+double startCoordinateX = -1;
+double startCoordinateY = -9;
+double heightScreen;
+double widthScreen;
+double birdX;
+double birdY;
+String applicationName = "FloppyBird";
+int score = 0;
+int bestScore = 0;
+String print1 = "T A P  T O  S T A R T";
+String print2 = "G A M E  O V E R";
+String print3 = "R E S T A R T";
+bool initStartBirdXY = false;
+int barrierHeight;
+int canal;
+bool gameIsStart = false;
+//double currentPosBird;
